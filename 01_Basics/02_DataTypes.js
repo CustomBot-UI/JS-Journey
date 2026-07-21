@@ -2,7 +2,7 @@
 
 // alert(3 + 3) // we're using nodejs, not browser
 
-let name = 'Habib'
+let name = 'Ali'
 let age = 21
 let isLoggedIn = true
 

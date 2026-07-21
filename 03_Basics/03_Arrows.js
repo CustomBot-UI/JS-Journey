@@ -1,5 +1,5 @@
 const user = {
-    username: "Habib",
+    username: "Ali",
     price: 99,
     welcomeMsg: function() {
         // console.log(`${this.username}, Welcome to Website.`)
@@ -7,7 +7,7 @@ const user = {
 }
 
 user.welcomeMsg()
-user.username = "Habib Tariq"
+user.username = "Ali Tariq"
 user.welcomeMsg()
 
 // console.log("Output of this:", this); // Output: {}
@@ -47,6 +47,6 @@ const addTwo = (num1, num2) => num1 + num2
 // console.log(addTwo(3, 4));
 
 // Returning an Object
-const objRet = () => ({Name: "Habib Bin Tariq"})
+const objRet = () => ({Name: "Ali Imran"})
 // console.log(objRet())
 

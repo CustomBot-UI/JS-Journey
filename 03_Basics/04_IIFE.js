@@ -23,5 +23,5 @@ chai();
 // Parameters passing in Unamed IIFE
 ((name) => {
     console.log(`Arrow Tchnique: DB CONNECTED to ${name}.csv.`);
-})('Habib');
+})('Ali');
 

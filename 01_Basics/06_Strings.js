@@ -1,4 +1,4 @@
-const name = "Habib"
+const name = "Ali"
 const repoCount = 10
 
 // console.log(name + repoCount + "Value");
@@ -7,7 +7,7 @@ const repoCount = 10
 console.log(`My name is ${name} and I've total ${repoCount} repos on GitHub.`);
 
 // Actual Declaration of String
-const gameName = new String('Habib-H-C')
+const gameName = new String('Ali-H-C')
 console.log(gameName);
 
 console.log(gameName[0]);
@@ -33,7 +33,7 @@ const anotherString = gameName.slice(-1)
 console.log(`Slicing: ${anotherString}`);
 
 // Trim Function
-const newStringone = "  Habib  "
+const newStringone = "  Ali  "
 console.log("\nTrim Functrion:-");
 console.log(newStringone);
 console.log(`Trim: ${newStringone.trim()}`);
@@ -41,11 +41,11 @@ console.log(`Trim Start: ${newStringone.trimStart()}`);
 console.log(`Trim End: ${newStringone.trimEnd()}`);
 
 // Replace Function
-const url = 'https://habibtariq.com/habib%20tariq'
+const url = 'https://Alitariq.com/Ali%20tariq'
 console.log(url.replace('%20', '-'));
 
 // Includes Method
-console.log(url.includes('habib'));
+console.log(url.includes('Ali'));
 
 // Split Method 
 console.log(gameName.split('-'));

@@ -6,11 +6,11 @@ const mySym = Symbol("Key1")
 
 // Object Literals
 const JsUser = {
-    name: "Habib",
+    name: "Ali",
     [mySym]: "MyKey1",  // usage of Symbol in Object  [Interview Question]
     age: 21,
     location: "Lahore",
-    email: "habib@devsinc.com",
+    email: "Ali@devsinc.com",
     isLoggedIn: false,
     lastLoggedIn: ["Monday", "Tuesday"]
 }
@@ -19,11 +19,11 @@ console.log("JsUser:", JsUser["email"]);
 console.log("Symbol and Object:", JsUser[mySym]);
 
 // if we want to change the value
-JsUser.email = "habib@systemslimited.com"
+JsUser.email = "Ali@systemslimited.com"
 
 // if we want to freeze our OBJECT
     // Object.freeze(JsUser)
-    // JsUser.email = "habib@Netsol.com" // it'll not throw any error but the value won't be changed
+    // JsUser.email = "Ali@Netsol.com" // it'll not throw any error but the value won't be changed
     // console.log(JsUser);
 
 // Fucntion
@@ -49,17 +49,17 @@ console.log(" \n\n======= Objects Singleton ======= ");
 
 const tinderUser = {}
 
-tinderUser.name = "Habib"
+tinderUser.name = "Ali"
 tinderUser.id = "abc321"
 tinderUser.isLoggedIn = false
 
 console.log(tinderUser);
 
 const regularUser = {
-    email: "habib@umt.com",
+    email: "Ali@umt.com",
     fullname: {
         username: {
-            firstname: "Habib",
+            firstname: "Ali",
             lastname: "Tariq"
         }
     }
@@ -117,7 +117,7 @@ console.log("\n\n==== Object De-Structuring ====");
 const course = {
     coursename: "JS",
     price: "199",
-    courseInstructor: "Habib"
+    courseInstructor: "Ali"
 }
 
 // course.courseInstructor

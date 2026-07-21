@@ -28,7 +28,7 @@ const heros = ["shkatiman", "Doga", "Nagraaj"]
 
 // Object
 let my_Obj = {
-    name: "Habib",
+    name: "Ali",
     age: 21
 }
 
@@ -69,9 +69,9 @@ console.log("\n");
 // --> Object or anything defined in Heap always gives us its reference
 
 // => STATIC example
-let MyName = "Habib Tariq"
+let MyName = "Ali Imran"
 let OrignalName = MyName
-OrignalName = "M. Habib Tariq"
+OrignalName = "Ali Imran"
 
 console.log(MyName);
 console.log(OrignalName); // won't make any change in MyName
@@ -84,7 +84,7 @@ let user1 = {
 }
 
 let user2 = user1
-user2.email = "Habib@gmail.com"
+user2.email = "Ali@gmail.com"
 
 console.log("User 1 Email:", user1.email);
 console.log("User 2 Email:", user2.email);

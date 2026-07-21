@@ -34,7 +34,7 @@ function loginUserMsg(username) {
     return `${username} just logged in`
 }
 
-console.log(`With Arg: ${loginUserMsg("Habib Tariq")}`);
+console.log(`With Arg: ${loginUserMsg("Ali Tariq")}`);
 console.log(`Without Arg: ${loginUserMsg()}`);
 
 function calculateCartPrice(val1, val2, ...price) {
@@ -47,7 +47,7 @@ console.log(calculateCartPrice(20, 30, 400));
 
 console.log("\n========= Objects passing in Functions =========");
 const user = {
-    Username: "Habib",
+    Username: "Ali",
     price: 199
 }
 
@@ -58,7 +58,7 @@ function handleObj(anyObj) {
 handleObj(user)
 /* 
 handleObj({
-    Username: "Habib",
+    Username: "Ali",
     price: 199
 }) --> We can alos pass the whole Object in this way too. 
 */
