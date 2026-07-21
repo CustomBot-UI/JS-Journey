@@ -1,10 +1,10 @@
 function one() {
-    const username = "Habib"
+    const username = "Ali"
     function two() {
         const website = "Youtube"
         console.log(username);        
     }
-    // console.log(website);
+    // console.log(website);//will give error because "website" is not accessible outside of the function "two"
     two()    
 }
 
